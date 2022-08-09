@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+nav input {
+    font-size: 10px;
+    padding: 4px 10px;
+}
+
+ul {
+    flex: 1;
+    text-align: right;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+nav button {
+    font-size: 10px;
+    padding: 4px 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: transparent;
+}
+
+h3 {
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+/* <!-- main body section --> */
+main {
+    display: flex;
+    background-image: url(../Github/PHOTO-2022-07-24-12-53-01\ 2.jpg);
+    color: white;
+    padding: 0px 100px;
+}
+
+.text-col {
+    flex-basis: 50%;
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+p {
+    margin: 10px 50px;
+}
+
+a {
+    text-decoration: none;
+    color: lightblue;
+    margin-left: 50px;
+}
+
+.form-col {
+    flex-basis: 50%;
+    margin: 50px 0px;
+    transform: translateX(100px);
+}
+
+form {
+    /* border: 1px solid brown; */
+    width: 70%;
+}
+
+form input {
+    width: 100%;
+    margin: 5px 10px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+form button {
+    width: 100%;
+    margin: 20px 15px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    background: rgb(106, 233, 106);
+    border: none;
+    color: #fff;
+}
+
+/* <!-- This is the footer section --> */
+footer {
+    text-align: center;
+    margin-top: 80px;
+}
+
+footer a {
+    color: purple;
+}
